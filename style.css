@@ -1,0 +1,161 @@
+
+nav {
+  background-color: #F4786E;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 30px;
+  height: 60px;
+  background-size: 100%;
+  padding-bottom: 50px;
+  border: 1px solid black
+}
+
+ul{
+  text-align: center;
+  margin-top: -25px;
+  color: #F8F2E6;
+  font-family: arial;
+  font-size: 16px;
+  position: absolute;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  width: 155px;
+  float: left;
+  margin-left: 100px;
+}
+
+li:hover {
+  color: #624837;
+  text-decoration: underline;
+  font-family: papyrus;
+}
+
+#header {
+  text-align: center;
+  font-size: 100px;
+  color: #97E3B5;
+  font-family: Brush Script MT;
+  margin-top: -30px;
+}
+
+#color {
+  border: 1px solid black;
+}
+
+#palette {
+  float: left;
+  clear: both;
+  position: absolute;
+  margin-top: 200px;
+  display: inline-block;
+  margin-left: 100px;
+  border-right: 1px solid grey;
+  width: 200px;
+}
+
+#mint {
+  background-color: #97E3B5;
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 100px;
+  font-family: didot;
+}
+
+#coral {
+  background-color: #F4776D;
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 100px;
+  font-family: didot;
+}
+
+#blush {
+  background-color: #FFC7BA;
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 100px;
+  font-family: didot;
+}
+
+#beige {
+  background-color: #F8F2E6;
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 100px;
+  font-family: didot;
+}
+
+#brown {
+  background-color: #624837;
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 100px;
+  font-family: didot;
+}
+
+#palette > p {
+  margin-left: 35px;
+  color: grey;
+  font-family: papyrus;
+}
+
+#fonts {
+  float: right;
+  margin-top: 200px;
+  text-align: center;
+  margin-right: 250px;
+}
+
+#fonts > p {
+  color: grey;
+  font-family: papyrus;
+}
+
+#fonts > p:nth-child(2) {
+  font-family: brush script mt;
+  font-size: 50px;
+  color: black;
+}
+
+#fonts > p:nth-child(3) {
+  font-size: 30px;
+  color: black;
+}
+
+#fonts > p:nth-child(4) {
+  font-family: didot;
+  color: black;
+  font-size: 30px;
+}
+
+#fonts > p:nth-child(5){
+  border-bottom: 1px solid grey;
+}
+
+#logo {
+  margin-top: 50px;
+}
+
+img {
+  margin-top: 10px;
+}
